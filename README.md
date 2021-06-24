@@ -28,7 +28,9 @@ This is used in the demonstration of development of Ansible Playbooks.
 ## 3. Start Database Service
   - Start the database service
     
-        service mysql start
+        (service mysql start)
+        systemctl start mariadb.service
+        systemctl status mariadb.service
 
   - Create database and database users
         
